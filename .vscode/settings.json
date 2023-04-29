@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "4_desafio_spring_data_jpa/main/src/main/java/com/academia/main",
+        "2_desafio_bootcamp/DesafioPoo/src",
+        "4_desafio_spring_data_jpa/main/src/main/java/com/academia"
+    ]
+}
