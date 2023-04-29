@@ -1,7 +1,7 @@
-package com.academia.controllers;
+package main.controllers;
 
-import com.academia.models.Aluno;
-import com.academia.services.AlunoService;
+import com.academia.main.models.Aluno;
+import com.academia.main.services.AlunoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,11 @@
-import com.academia.models.Matricula;
-import com.academia.repositories.MatriculaRepository;
+package com.academia.main.services;
+
+import com.academia.main.models.Matricula;
+import com.academia.main.repositories.MatriculaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import org.springframework.beans.BeanUtils;
 
 import java.util.List;
 

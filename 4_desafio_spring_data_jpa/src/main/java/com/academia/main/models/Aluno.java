@@ -1,4 +1,4 @@
-package com.academia.models;
+package com.academia.main.models;
 
 import javax.persistence.*;
 import java.time.LocalDate;

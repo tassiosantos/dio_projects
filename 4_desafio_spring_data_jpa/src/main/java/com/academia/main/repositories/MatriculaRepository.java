@@ -1,4 +1,6 @@
-import com.academia.models;
+package com.academia.main.repositories;
+
+import com.academia.main.models.Matricula;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

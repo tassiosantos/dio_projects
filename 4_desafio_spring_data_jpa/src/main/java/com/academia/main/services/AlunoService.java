@@ -1,8 +1,11 @@
-import com.academia.models;
-import com.academia.repositories.AlunoRepository;
+package com.academia.main.services;
+
+import com.academia.main.models.Aluno;
+import com.academia.main.repositories.AlunoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import org.springframework.beans.BeanUtils;
 import java.util.List;
 
 @Service

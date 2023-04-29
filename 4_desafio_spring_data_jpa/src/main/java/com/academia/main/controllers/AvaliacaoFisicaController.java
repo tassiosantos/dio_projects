@@ -1,7 +1,7 @@
-package com.academia.controllers;
+package main.controllers;
 
-import com.academia.models.AvaliacaoFisica;
-import com.academia.services.AvaliacaoFisicaService;
+import com.academia.main.models.AvaliacaoFisica;
+import com.academia.main.services.AvaliacaoFisicaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

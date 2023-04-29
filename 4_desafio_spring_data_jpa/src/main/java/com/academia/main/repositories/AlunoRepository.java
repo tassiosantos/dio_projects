@@ -1,6 +1,6 @@
-package com.academia.repositories;
+package com.academia.main.repositories;
 
-import com.academia.models.Aluno;
+import com.academia.main.models.Aluno;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

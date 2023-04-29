@@ -1,7 +1,7 @@
-package com.academia.controllers;
+package main.controllers;
 
-import com.academia.models.Matricula;
-import com.academia.services.MatriculaService;
+import com.academia.main.models.Matricula;
+import com.academia.main.services.MatriculaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

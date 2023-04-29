@@ -1,19 +1,21 @@
-package com.academia.models;
+package com.academia.main.models;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-public class Matricula {
+public class AvaliacaoFisica {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "aluno_id", referencedColumnName = "id")
     private Aluno aluno;
 
-    private LocalDateTime dataDaMatricula;
+    private LocalDateTime dataDaAvaliacao;
+    private double peso;
+    private double altura;
 
     // Construtores, getters e setters
 }

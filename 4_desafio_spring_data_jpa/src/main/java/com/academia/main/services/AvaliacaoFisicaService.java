@@ -1,8 +1,12 @@
-package com.academia.services;
-import com.academia.models.AvaliacaoFisica;
-import com.academia.repositories.AvaliacaoFisicaRepository;
+package com.academia.main.services;
+
+import com.academia.main.models.AvaliacaoFisica;
+import com.academia.main.repositories.AvaliacaoFisicaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import org.springframework.beans.BeanUtils;
+
 
 
 import java.util.List;
