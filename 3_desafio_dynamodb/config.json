@@ -1,0 +1,17 @@
+{
+    "region": "us-east-1",
+    "accessKeyId": "id da AWS",
+    "secretAccessKey": "senha da AWS",
+    "table": "nome da tabela",
+    "schema": {
+        "hashKey": "HASH_ATTRIBUTE_NAME",
+        "rangeKey": "RANGE_ATTRIBUTE_NAME",
+        "indexes": [
+            {
+                "name": "INDEX_NAME",
+                "hashKey": "INDEX_HASH_ATTRIBUTE_NAME",
+                "rangeKey": "INDEX_RANGE_ATTRIBUTE_NAME"
+            }
+        ]
+    }
+}
